@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<!-- Page d'accueil -->
+
+	<head>
+		<title>Qui sommes-nous ? Espace Japon</title>
+		<meta name="description" content="Cours de japonais, calligraphie, cours de cuisine japonaise, atelier ikebana … Espace Japon et son équipe d'intervenants vous proposent de multiples ateliers.">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="japon.css" />
+	</head>
+
+	<body>
+		
+		<font face="verdana">
+
+		<!-- Bordereau en haut de page contenant le logo, le titre de l'association, la barre de recherche google -->
+		<table width="1000px" align="center">
+			<tr>
+				<td>
+					<p align="center"><img src="../images/japon_logo.png" alt="logo" width="150px"></p>
+				</td>
+				<td>
+				<strong><font size="5em">Espace culturel franco-japonais à Paris</font></strong>
+				</td>
+				<td>
+					<form method="get" action="https://www.google.fr/" target="_blank">
+						<label for="recherche"><img src="../images/loupe.png" alt="icône loupe" width="15px" /></label>
+						<input type="text" name="recherche" id="recherche" placeholder="google" />
+					</form>
+				</td>
+			</tr>
+		</table>
+
+		<!--  + Barre de navigation horizontale contenant les liens vers "mon compte" et les réseaux sociaux fb, insta et youtube -->
+		<div class="reseaux">
+		<table width="1000px" align="center" cellspacing="0" cellpadding="5px">
+			<tr>
+				<td width="67%">
+				</td>
+				<td>
+					<a href="japon_connexion.html" target="_blank"><img src="../images/compte.png" alt="pictogramme mon compte" width="31px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.facebook.com/espacejapon" target="_blank"><img src="../images/facebook.jpg" alt="pictogramme facebook" width="30px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.instagram.com/espacejapon/?hl=fr" target="_blank"><img src="../images/instagram.jpg" alt="pictogramme instagram" width="30px" /></a>
+				</td>
+				<td>
+					<a href="https://www.youtube.com/channel/UCa8irMKrVI2COsmYUMNzY8A" target="_blank"><img src="../images/youtube.jpg" alt="pictogramme youtube" width="30px" /></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<br /> 
+		<!-- Saut d'une ligne entre les bandeaux horizontaux et le contenu de la page -->
+
+		<div class="accueil">
+
+		<!-- Menu de navigation en vertical à gauche -->
+		<div class="menu">
+		<table width="150px" cellspacing="10" cellpadding="45px">
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_accueil.html" style="text-decoration: none;"><strong><font color="#08BCB7">Accueil</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_calendrier.html" style="text-decoration: none;"><strong><font color="#08BCB7">Calendrier</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_inscription.html" style="text-decoration: none;"><strong><font color="#08BCB7">Inscription</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_galerie.html" style="text-decoration: none;"><strong><font color="#08BCB7">Galerie</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_contact.html" style="text-decoration: none;"><strong><font color="#08BCB7">Contact</font></strong></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<div class="contenu">
+		<table width="850px" cellpadding="10px">
+			<tr>
+				<td colspan="2" align="center">
+					<h1><font size="4">Qui sommes-nous ?</font></h1>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" align="center">
+					<p align="right"><img src="../images/japon_illustration.png" width="420px" title="Illustration par Julie Sauron"/></p>
+				</td>
+			</tr>
+			<tr>
+				<td align="justify">
+					<font size=2>
+					<p><strong>Espace Japon</strong> est un centre culturel franco-japonais créé à Paris dans les années 80.
+					Il s’agissait alors de créer une vitrine culturelle pour les Éditions Ilyfunet (qui publie les journaux Ovni et Zoom Japon).
+					Ainsi, les fondateurs des Éditions ont souhaité penser un espace d’échange et de transmission inter-culturelle.</p>
+
+					<p>Devenue véritable passerelle entre la France et le Japon, Espace Japon propose aujourd’hui de nombreuses activités pour découvrir la culture japonaise.</p>
+
+					<p>École de japonais et organisme de formation agréé, Espace Japon propose des cours de japonais pour tous les niveaux durant la semaine.
+					En effet, notre centre culturel est spécialisé dans l’enseignement du japonais, et est globalement réputé pour sa qualité de formation dynamique.</p>
+					</font>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="justify">
+					<font size="2">
+					<p>Aussi, nous organisons tous les samedis des ateliers culturels divers. Calligraphie, Ikebana, Manga, Estampe … Tous les amateurs de culture nippone y trouveront leur compte.
+					Nous proposons également des cours de cuisine tout au long de la semaine en soirée. Cuisine familiale, maki, tapas, street-food, cuisine en japonais … Il y en a pour tous les goûts !</p>
+
+					<p>De plus, notre espace culturel accueille depuis toujours une bibliothèque franco-japonaise riches de plus de 10 000 ouvrages variés.</p>
+
+					<p>Enfin, notre espace d’exposition se consacre à la présentation d’artistes japonais. Chaque exposition présente des œuvres propres à la culture japonaise, ces arts traditionnels et modernes.</p>
+					</font>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		</div>
+
+		</font>
+	</body>
+</html>
