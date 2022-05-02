@@ -1,0 +1,12 @@
+.accueil, .calendrier, .inscription, .confirmation1, .galerie, .contact, .confirmation2, .connexion, .confirmation3, .confirmation4{
+	display: flex;
+	justify-content: center;
+}
+
+.tableau, .formulaire, .merci, .photo, .contact1, .merci2, .connexion1, .merci3, .merci4{
+	text-align: center;
+}
+
+.reseaux{
+	border-bottom: 2px solid black;
+}

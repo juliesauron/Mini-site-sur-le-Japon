@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	
+	<!-- Formulaire de contact  -->
+
+	<head>
+		<title>Contact - Espace Japon</title>
+		<meta name="description" content="Espace Japon - N'hésitez pas à nous contacter !">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="japon.css" />
+	</head>
+
+	<body>
+
+		<font face="verdana">
+
+		<!-- Bordereau en haut de page contenant le logo, le titre de l'association, la barre de recherche google -->
+		<table width="1000px" align="center">
+			<tr>
+				<td>
+					<p align="center"><a href="japon_accueil.html"><img src="../images/japon_logo.png" alt="logo" width="150px"></a></p>
+				</td>
+				<td>
+				<strong><font size="5em">Espace culturel franco-japonais à Paris</font></strong>
+				</td>
+				<td>
+					<form method="get" action="https://www.google.fr/" target="_blank">
+						<label for="recherche"><img src="../images/loupe.png" alt="icône loupe" width="15px" /></label>
+						<input type="text" name="recherche" id="recherche" placeholder="google" />
+					</form>
+				</td>
+			</tr>
+		</table>
+
+		<!--  + Barre de navigation horizontale contenant les liens vers "mon compte" et les réseaux sociaux fb, insta et youtube -->
+		<div class="reseaux">
+		<table width="1000px" align="center" cellspacing="0" cellpadding="5px">
+			<tr>
+				<td width="67%">
+				</td>
+				<td>
+					<a href="japon_connexion.html" target="_blank"><img src="../images/compte.png" alt="pictogramme mon compte" width="31px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.facebook.com/espacejapon" target="_blank"><img src="../images/facebook.jpg" alt="pictogramme facebook" width="30px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.instagram.com/espacejapon/?hl=fr" target="_blank"><img src="../images/instagram.jpg" alt="pictogramme instagram" width="30px" /></a>
+				</td>
+				<td>
+					<a href="https://www.youtube.com/channel/UCa8irMKrVI2COsmYUMNzY8A" target="_blank"><img src="../images/youtube.jpg" alt="pictogramme youtube" width="30px" /></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<br />
+		<!-- Saut d'une ligne entre les borderaux horizontaux du haut de la page et le contenu -->
+
+		<div class="contact">
+
+		<!-- Menu de navigation en vertical à gauche -->
+		<div class="menu">
+		<table width="150px" cellspacing="10" cellpadding="45px">
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_accueil.html" style="text-decoration: none;"><strong><font color="#08BCB7">Accueil</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_calendrier.html" style="text-decoration: none;"><strong><font color="#08BCB7">Calendrier</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_inscription.html" style="text-decoration: none;"><strong><font color="#08BCB7">Inscription</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_galerie.html" style="text-decoration: none;"><strong><font color="#08BCB7">Galerie</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_contact.html" style="text-decoration: none;"><strong><font color="#08BCB7">Contact</font></strong></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<div class="contact1">
+		<form method="post" action="japon_confirmation_contact.html">
+		<font size="2">
+		<table cellspacing="10" cellpadding="5" align="center" width="850px">
+			<tr>
+				<td colspan="2" bgcolor="F5F5F5"><h1><font size="4">Contact</font></h1></td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="F5F5F5">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2471632975353!2d2.3562919150880153!3d48.87256460766355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e0d95084949%3A0x69e67093c39464ad!2sEspace%20Japon!5e0!3m2!1sfr!2sfr!4v1636236855813!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="nom">Nom</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="nom" id="nom" required placeholder="Uchiha" size="40" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="prenom">Prénom</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="prenom" id="prenom" required placeholder="Sasuke" size="40" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="mail">E-mail</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="email" name="mail" id="mail" required placeholder="sasuke.uchiha@konoha.com" size="40" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="tel">Téléphone</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="tel" name="tel" id="tel" required placeholder="0102030405" size="40" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="message">Message</label><font color="red">*</font></strong>
+				</td>
+				<td>
+					<textarea cols="40" rows="5">Il y'a plein de choses que je déteste mais très peu que j'aime. Mon rêve pour l'avenir... Je préfère le garder pour moi. Dans l'immédiat j'ai plutôt un objectif : rétablir l'honneur de ma famille.... Et tuer un certain homme.
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" bgcolor="F5F5F5">
+					<p><input type="reset" value="Tout effacer" /></p>
+				</td>
+				<td align="center" bgcolor="F5F5F5">
+					<p><input type="submit" value="Envoyer" /></p>
+				</td>
+			</tr>
+		</table>
+		</font>
+		</form>
+		</div>
+
+		</div>
+
+		</font>
+	</body>
+</html>

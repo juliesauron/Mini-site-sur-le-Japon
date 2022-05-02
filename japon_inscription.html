@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<!-- Formulaire d'inscription au cours de japonais -->
+
+	<head>
+		<title>Inscription - Espace Japon</title>
+		<meta name="description" content="Espace Japon - Inscription rapide à nos cours de japonais.">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="japon.css" />
+	</head>
+
+	<body>
+
+		<font face="verdana">
+
+		<!-- Bordereau en haut de page contenant le logo, le titre de l'association, la barre de recherche google -->
+		<table width="1000px" align="center">
+			<tr>
+				<td>
+					<p align="center"><a href="japon_accueil.html"><img src="../images/japon_logo.png" alt="logo" width="150px"></a></p>
+				</td>
+				<td>
+				<strong><font size="5em">Espace culturel franco-japonais à Paris</font></strong>
+				</td>
+				<td>
+					<form method="get" action="https://www.google.fr/" target="_blank">
+						<label for="recherche"><img src="../images/loupe.png" alt="icône loupe" width="15px" /></label>
+						<input type="text" name="recherche" id="recherche" placeholder="google" />
+					</form>
+				</td>
+			</tr>
+		</table>
+
+		<!--  + Barre de navigation horizontale contenant les liens vers "mon compte" et les réseaux sociaux fb, insta et youtube -->
+		<div class="reseaux">
+		<table width="1000px" align="center" cellspacing="0" cellpadding="5px">
+			<tr>
+				<td width="67%">
+				</td>
+				<td>
+					<a href="japon_connexion.html" target="_blank"><img src="../images/compte.png" alt="pictogramme mon compte" width="31px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.facebook.com/espacejapon" target="_blank"><img src="../images/facebook.jpg" alt="pictogramme facebook" width="30px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.instagram.com/espacejapon/?hl=fr" target="_blank"><img src="../images/instagram.jpg" alt="pictogramme instagram" width="30px" /></a>
+				</td>
+				<td>
+					<a href="https://www.youtube.com/channel/UCa8irMKrVI2COsmYUMNzY8A" target="_blank"><img src="../images/youtube.jpg" alt="pictogramme youtube" width="30px" /></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<br />
+		<!-- Saut d'une ligne entre les borderaux horizontaux du haut de la page et le contenu -->
+
+		<div class="inscription">
+
+		<!-- Menu de navigation en vertical à gauche -->
+		<div class="menu">
+		<table width="150px" cellspacing="10" cellpadding="45px">
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_accueil.html" style="text-decoration: none;"><strong><font color="#08BCB7">Accueil</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_calendrier.html" style="text-decoration: none;"><strong><font color="#08BCB7">Calendrier</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_inscription.html" style="text-decoration: none;"><strong><font color="#08BCB7">Inscription</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_galerie.html" style="text-decoration: none;"><strong><font color="#08BCB7">Galerie</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_contact.html" style="text-decoration: none;"><strong><font color="#08BCB7">Contact</font></strong></a>
+				</td>
+			</tr>
+		</table>
+		</div>	
+
+		<!-- Formulaire d'inscription qui renvoie à la page "Merci pour votre inscription!" -->
+		<div class="formulaire">
+		<form method="post" action="japon_confirmation_inscription.html">
+		<font size="2">
+		<table cellspacing="10" align="center" width="850px" cellpadding="5px">
+			<tr>
+				<td colspan="2" bgcolor="#F5F5F5"><h1><font size="4">Inscription</font></h1></td>
+			</tr>
+			<tr>
+				<td width="40%" bgcolor="#F5F5F5">
+					<label for="nom">Nom</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="nom" id="nom" placeholder="Uzumaki" size="40" required />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label for="prenom">Prénom</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="prenom" id="prenom" placeholder="Naruto" size="40" required />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label for="mail">E-mail</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="email" name="mail" id="mail" placeholder="naruto.uzumaki@konoha.com" size="40" required />
+				</td>
+			</tr>
+			<tr>
+				<td valign="top" bgcolor="#F5F5F5">
+					<label for="adresse">Adresse</label>
+				</td>
+				<td>
+					<textarea name="adresse" id="adresse" rows="5" cols="40" maxlength="1000" placeholder="00 rue Uzumaki, 3e étage"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label for="postal">Code postal</label>
+				</td>
+				<td>
+					<input type="number" name="postal" id="postal" placeholder="00100" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label for="ville">Ville de résidence</label>
+				</td>
+				<td>
+					<input type="text" name="ville" id="ville" list="villes" placeholder="Konoha" />
+					<datalist id="villes">
+						<option value="Aubervilliers"></option>
+						<option value="Boulogne-Billancourt"></option>
+						<option value="Montreuil"></option>
+						<option value="Nanterre"></option>
+						<option value="Paris"></option>
+					</datalist>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label for="naissance">Date de naissance</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="date" name="naissance" id="naissance" required value="1995-10-10" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label>Niveau estimé</label>
+				</td>
+				<td>
+					<input type="checkbox" name="débutants" value="Débutants" /> Débutants
+					<input type="checkbox" name="intermédiaires" value="Intermédiaires" /> Intermédiaires
+					<input type="checkbox" name="avancés" value="Avancés" checked /> Avancé
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#F5F5F5">
+					<label for="creneaux">Créneaux possibles</label>
+				</td>
+				<td> <a href="japon_calendrier.html" style="text-decoration:none;">Voir l'agenda</a>
+					<select id="creneaux">
+						<optgroup label="Lundi">
+							<option>
+								17h-19h
+							</option>
+							<option>
+								19h-21h
+							</option>
+						</optgroup>
+						<optgroup label="Mardi">
+							<option>
+								17h-19h
+							</option>
+							<option>
+								19h-21h
+							</option>
+						</optgroup>
+						<optgroup label="Mercredi">
+							<option>
+								09h-11h
+							</option>
+							<option>
+								13h-15h
+							</option>
+							<option>
+								15h-17h
+							</option>
+							<option>
+								17h-19h
+							</option>
+							<option>
+								19h-21h
+							</option>
+						</optgroup>
+						<optgroup label="Jeudi">
+							<option>
+								17h-19h
+							</option>
+							<option>
+								19h-21h
+							</option>
+						</optgroup>
+						<optgroup label="Vendredi">
+							<option>
+								17h-19h
+							</option>
+							<option>
+								19h-21h
+							</option>
+						</optgroup>
+						<optgroup label="Samedi">
+							<option>
+								09h-11h
+							</option>
+							<option>
+								13h-15h
+							</option>
+							<option>
+								15h-17h
+							</option>
+							<option>
+								17h-19h
+							</option>
+							<option>
+								19h-21h
+							</option>
+						</optgroup>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="">Comment avez-vous connu notre association?</label>
+				</td>
+				<td>
+					<select>
+						<option>
+							Par google
+						</option>
+						<option>
+							Par un proche
+						</option>
+						<option>
+							Par un journal local
+						</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" bgcolor="#F5F5F5">
+					<p><input type="reset" value="Tout effacer" /></p>
+				</td>
+				<td align="center" bgcolor="#F5F5F5">
+					<p><input type="submit" value="S'inscrire" /></p>
+				</td>
+			</tr>
+		</table>
+		</font>
+		</form>
+		</div>
+
+	</div>
+
+		</font>
+	</body>
+</html>

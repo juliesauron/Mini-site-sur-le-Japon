@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	
+	<!-- Formulaire de connexion  -->
+
+	<head>
+		<title>Espace client - Connexion - Espace Japon</title>
+		<meta name="description" content="Espace Japon - Connexion à l'espace client.">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="japon.css" />
+	</head>
+
+	<body>
+
+		<font face="verdana">
+
+		<!-- Bordereau en haut de page contenant le logo, le titre de l'association, la barre de recherche google -->
+		<table width="1000px" align="center">
+			<tr>
+				<td>
+					<p align="center"><a href="japon_accueil.html"><img src="../images/japon_logo.png" alt="logo" width="150px"></a></p>
+				</td>
+				<td>
+				<strong><font size="5em">Espace culturel franco-japonais à Paris</font></strong>
+				</td>
+				<td>
+					<form method="get" action="https://www.google.fr/" target="_blank">
+						<label for="recherche"><img src="../images/loupe.png" alt="icône loupe" width="15px" /></label>
+						<input type="text" name="recherche" id="recherche" placeholder="google" />
+					</form>
+				</td>
+			</tr>
+		</table>
+
+		<!--  + Barre de navigation horizontale contenant les liens vers "mon compte" et les réseaux sociaux fb, insta et youtube -->
+		<div class="reseaux">
+		<table width="1000px" align="center" cellspacing="0" cellpadding="5px">
+			<tr>
+				<td width="67%">
+				</td>
+				<td>
+					<a href="japon_connexion.html" target="_blank"><img src="../images/compte.png" alt="pictogramme mon compte" width="31px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.facebook.com/espacejapon" target="_blank"><img src="../images/facebook.jpg" alt="pictogramme facebook" width="30px" /> </a>
+				</td>
+				<td>
+					<a href="https://www.instagram.com/espacejapon/?hl=fr" target="_blank"><img src="../images/instagram.jpg" alt="pictogramme instagram" width="30px" /></a>
+				</td>
+				<td>
+					<a href="https://www.youtube.com/channel/UCa8irMKrVI2COsmYUMNzY8A" target="_blank"><img src="../images/youtube.jpg" alt="pictogramme youtube" width="30px" /></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<br />
+		<!-- Saut d'une ligne entre les borderaux horizontaux du haut de la page et le contenu -->
+
+		<div class="connexion">
+
+		<!-- Menu de navigation en vertical à gauche -->
+		<div class="menu">
+		<table width="150px" cellspacing="10" cellpadding="45px">
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_accueil.html" style="text-decoration: none;"><strong><font color="#08BCB7">Accueil</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_calendrier.html" style="text-decoration: none;"><strong><font color="#08BCB7">Calendrier</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_inscription.html" style="text-decoration: none;"><strong><font color="#08BCB7">Inscription</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_galerie.html" style="text-decoration: none;"><strong><font color="#08BCB7">Galerie</font></strong></a>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#BA3C3C" align="center">
+					<a href="japon_contact.html" style="text-decoration: none;"><strong><font color="#08BCB7">Contact</font></strong></a>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+		<div class="connexion1">
+		<form method="post" action="japon_confirmation_connexion.html">
+		<font size="2">
+		<table cellspacing="10" cellpadding="5" align="center" width="850px">
+			<tr>
+				<td colspan="2" bgcolor="F5F5F5"><h1><font size="4">CONNEXION</font></h1></td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="mail">E-mail</label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="email" name="mail" id="mail" required placeholder="kakashi.hatake@konoha.com" size="40" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="F5F5F5">
+					<label for="password">Mot de passe</label><strong><font color="red">*</font>
+					</strong>
+				</td>
+				<td>
+					<input type="password" name="password" id="password" required placeholder="sharingan" size="40" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" bgcolor="F5F5F5">
+					<p><input type="submit" value="Se connecter" /></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="F5F5F5">
+					<small><a href="japon_mdp.html" style="text-decoration:none;"> Mot de passe oublié ?</a></small>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="F5F5F5">
+					<a href="japon_inscription.html" style="text-decoration:none;"> Je ne possède pas encore de compte.</a>
+				</td>
+			</tr>
+		</table>
+		</font>
+		</form>
+		</div>
+
+		</div>
+
+		</font>
+	</body>
+</html
